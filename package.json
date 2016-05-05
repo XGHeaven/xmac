@@ -7,6 +7,10 @@
       "xmac": "bin/xmac",
       "xmac-ip": "src/ip.js"
   },
+  "repository": {
+      "type": "git",
+      "url": "git@github.com:XGHeaven/xmac.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
