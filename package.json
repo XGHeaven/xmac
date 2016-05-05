@@ -1,0 +1,14 @@
+{
+  "name": "xmac",
+  "version": "0.1.0",
+  "description": "some useful command tools",
+  "main": "bin/xmac",
+  "bin": {
+      "xmac": "bin/xmac"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "XGHeaven",
+  "license": "MIT"
+}
