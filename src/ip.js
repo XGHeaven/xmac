@@ -1,8 +1,12 @@
+#!/usr/bin/env node --harmony
 'ust strict';
 
+var childProcess = require('child_process');
+
 var chunks = [];
-process.stdin.on('data', data => chunks.push(data));
-process.stdin.on('end', parse);
+var ifconfig = childProcess.spawn('ifconfig');
+ifconfig.stdout.on('data', data => chunks.push(data));
+ifconfig.stdout.on('end', parse);
 
 function parse() {
     console.log(Buffer

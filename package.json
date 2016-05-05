@@ -4,7 +4,8 @@
   "description": "some useful command tools",
   "main": "bin/xmac",
   "bin": {
-      "xmac": "bin/xmac"
+      "xmac": "bin/xmac",
+      "xmac-ip": "src/ip.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -4,5 +4,5 @@ DIR=`dirname $0`
 IP_FILE=$DIR/../src/ip.js
 
 case $1 in
-    ip) ifconfig | node $IP_FILE;;
+    ip) xmac-ip;;
 esac
